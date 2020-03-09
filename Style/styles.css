@@ -1,0 +1,160 @@
+header{
+    background-image: URL(../Images/header7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color:White;
+    border:1px solid Green;
+    position:relative;
+    border-radius: 10px;
+}
+header h1{
+    float:left;
+}
+nav {
+    
+	background-color: Black;
+	padding: 5px;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    border-radius: 5px;
+}
+nav ul{
+	text-align:center;
+	font-size: 1.2em;
+    
+}
+nav ul li{
+	list-style-type:none;
+	background-color:black;
+	display: inline;
+	padding: 15px;
+	margin: 5px;
+	
+	
+}
+nav ul li a{
+	color: lawngreen;
+	text-decoration: none;
+}
+nav ul li:hover
+{
+	background-color: darkolivegreen;
+}
+body{
+    background: white;
+}
+#content{
+    
+    float: left;
+    width: 60%;
+    margin-right: 0px;
+    border: 5px solid darkolivegreen;
+    text-align: center;
+  
+}
+aside{
+	border:.5px solid darkolivegreen;
+	float: right;
+	width: 38.0%;
+}
+
+aside h2{
+    text-align: center;
+}
+
+footer{clear:both;
+border:1px solid green;
+padding:0;
+margin:0;
+position: relative;
+bottom:0px;
+width:100%;
+background-color:black;
+text-align: center;
+}
+
+
+main section p{
+    color:black;
+}
+
+
+footer ul{
+    text-align: center;
+    color: aqua;
+}
+footer ul li{
+    display:inline;
+    list-style-type: none;
+    padding: 15px;
+    margin:5px;
+    border:1px solid white;
+    
+}
+footer ul li:hover{
+    color:aquamarine;
+}
+footer ul li a{
+    text-decoration:none;
+    color:lawngreen;
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    text-decoration: underline;
+    color:red;
+    text-align:center;
+    margin-bottom: 5em;
+    padding-bottom: 5em;
+}
+
+
+
+
+#active {
+    background-color: darkolivegreen;
+}
+
+#staff {
+    text-align: left;
+}
+#staff h2{
+    text-align: left;
+}
+
+
+
+
+
+
+p{
+    color:white;
+    
+}
+#aboutuspic {
+    float: left;
+}
+
+#aboutuslink {
+    text-decoration: underline
+        color:blue;
+}
+h2{
+    color: darkgreen;
+    font-family: monospace;
+    font-size: 2em;
+}
+section h3{
+    color:darkgreen;
+    font-family: monospace;
+    font=size:2em;
+}
+section h2{
+    color: darkgreen;
+    font-family: monospace;
+    font-size: 2em;
+}
+
