@@ -3,7 +3,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
-    color:White;
+    color: aqua;
     border:1px solid Green;
     position:relative;
     border-radius: 10px;
@@ -43,35 +43,39 @@ nav ul li:hover
 	background-color: darkolivegreen;
 }
 body{
-    background: white;
+    background: lightgreen;
 }
 #content{
     
     float: left;
     width: 60%;
     margin-right: 0px;
-    border: 5px solid darkolivegreen;
+    border: 3px solid black;
     text-align: center;
   
 }
 aside{
-	border:.5px solid darkolivegreen;
 	float: right;
-	width: 38.0%;
+	width: 35.0%;
 }
 
 aside h2{
     text-align: center;
+    font-size: 10px;
+}
+aside section{
+    border:2px solid darkolivegreen;
+    background-color: azure;
 }
 
 footer{clear:both;
-border:1px solid green;
+border:3px solid green;
 padding:0;
 margin:0;
 position: relative;
 bottom:0px;
 width:100%;
-background-color:black;
+background-color:darkolivegreen;
 text-align: center;
 }
 
@@ -107,8 +111,7 @@ footer a{
     text-decoration: underline;
     color:red;
     text-align:center;
-    margin-bottom: 5em;
-    padding-bottom: 5em;
+  
 }
 
 
@@ -136,10 +139,11 @@ p{
 }
 #aboutuspic {
     float: left;
+    width: 200px;
 }
 
 #aboutuslink {
-    text-decoration: underline
+    text-decoration: underline;
         color:blue;
 }
 h2{
@@ -150,11 +154,55 @@ h2{
 section h3{
     color:darkgreen;
     font-family: monospace;
-    font=size:2em;
+    font-size:2em;
 }
 section h2{
     color: darkgreen;
     font-family: monospace;
-    font-size: 2em;
+    font-size: 25px;
+}
+h4{
+    font-size:20px;
+     color:darkgreen;
+    font-family: monospace;
+}
+.col_detail{
+	column-count:3;
+	column-rule:3px solid darkolivegreen;
+	column-gap:100px;
+	padding:2px;
+
+    
 }
 
+
+#FAQs {clear:both;
+    
+    padding:10px;
+    margin:10px;
+    border:3px solid darkolivegreen;
+    background-color: aqua;
+
+}
+
+iframe {
+    border: 0;
+}
+
+.image_size {
+ width:90%;
+float: none;
+}
+.species {
+    width: 23%;
+    float:left;
+    margin: 5px;
+}
+.edible_section_style {
+    text-align: center;
+    
+}
+
+.Edible_section_style {
+    ba
+}
