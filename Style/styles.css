@@ -1,9 +1,10 @@
 header{
-    background-image: URL(../Images/header7.jpg);
+    background-image: URL(../Images/mushrooms-in-the-forest.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
     color: aqua;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     border:1px solid Green;
     position:relative;
     border-radius: 10px;
@@ -27,10 +28,11 @@ nav ul{
 }
 nav ul li{
 	list-style-type:none;
-	background-color:black;
+	background-color:slategrey;
 	display: inline;
 	padding: 15px;
 	margin: 5px;
+    border-radius: 2px;
 	
 	
 }
@@ -43,20 +45,29 @@ nav ul li:hover
 	background-color: darkolivegreen;
 }
 body{
-    background: lightgreen;
+    background-image:       URL(../Images/grassbackground.jpg);
+    background-size: cover;
 }
-#content{
+#aboutUs{
     
     float: left;
-    width: 60%;
+    width: 63.5%;
     margin-right: 0px;
-    border: 3px solid black;
-    text-align: center;
+    margin-left: 1em;
+       border:2px solid darkolivegreen;
+    background-color: aquamarine;
+    padding:0.5em;
+    
   
 }
+
+section{
+    padding:0.5em;
+}
 aside{
-	float: right;
-	width: 35.0%;
+	width: 30%;
+    float:left;
+    margin:1em; 
 }
 
 aside h2{
@@ -65,17 +76,17 @@ aside h2{
 }
 aside section{
     border:2px solid darkolivegreen;
-    background-color: azure;
+    background-color: aquamarine;
+    padding:0.5em;
 }
 
 footer{clear:both;
-border:3px solid green;
 padding:0;
-margin:0;
-position: relative;
+margin:20px;
+position: static;
 bottom:0px;
 width:100%;
-background-color:darkolivegreen;
+background-color:black;
 text-align: center;
 }
 
@@ -83,29 +94,30 @@ text-align: center;
 main section p{
     color:black;
 }
-
+body p{
+    font-family: aial;
+}
 
 footer ul{
     text-align: center;
-    color: aqua;
+    padding-top: 0.7em;
 }
 footer ul li{
     display:inline;
-    list-style-type: none;
+    list-style-type: 
     padding: 15px;
     margin:5px;
     border:1px solid white;
     
 }
-footer ul li:hover{
-    color:aquamarine;
-}
+
 footer ul li a{
     text-decoration:none;
     color:lawngreen;
 }
 footer p{
     text-align: center;
+    color: white;
 }
 footer a{
     text-decoration: underline;
@@ -114,35 +126,30 @@ footer a{
   
 }
 
-
+ul li h5{
+      color: darkgreen;
+    font-family: monospace;
+    font-size: 1.5em;
+}
 
 
 #active {
     background-color: darkolivegreen;
-}
-
-#staff {
-    text-align: left;
-}
-#staff h2{
-    text-align: left;
+    border: 1px solid white;
+    border-radius: 0.2em;
 }
 
 
 
-
-
-
-p{
-    color:white;
-    
+section p{
+    font-family: arial;
 }
 #aboutuspic {
     float: left;
-    width: 200px;
+    width: 12em;
 }
 
-#aboutuslink {
+.linkStyle {
     text-decoration: underline;
         color:blue;
 }
@@ -166,43 +173,90 @@ h4{
      color:darkgreen;
     font-family: monospace;
 }
-.col_detail{
+#col_detail{
 	column-count:3;
 	column-rule:3px solid darkolivegreen;
-	column-gap:100px;
 	padding:2px;
 
     
 }
 
-
-#FAQs {clear:both;
-    
-    padding:10px;
-    margin:10px;
-    border:3px solid darkolivegreen;
-    background-color: aqua;
-
+.headingStyle{
+    background-color: aquamarine;
 }
 
-iframe {
-    border: 0;
-}
 
+ul li{
+    font-family: arial;
+}
 .image_size {
- width:90%;
-float: none;
+ height:20em;
 }
-.species {
-    width: 23%;
-    float:left;
-    margin: 5px;
+h5{
+     color: darkgreen;
+    font-family: monospace;
+    font-size: 1.5em;
+    
 }
+
 .edible_section_style {
     text-align: center;
+    background-color: aquamarine;
+    border: 2px solid darkolivegreen;
+    border-radius: 1em;
+    margin-bottom: 10px;
+    padding:10px;
+    
     
 }
-
-.Edible_section_style {
-    ba
+.required{
+	font-weight:bold;
+	color:red;
 }
+label{
+	float:left;
+	width:112px;
+	padding-right:10px;
+	text-align:center;
+}
+input{
+	margin-left:1em;
+	margin-bottom:0.5em;
+width:220px;
+}
+input[type="radio"]{width:10px;}
+input[type="checkbox"]{width:15px;}
+#button{
+margin-left:138px;}
+#button,#reset
+{
+	margin-top:0.5em;
+	width:8em;
+	background-color:orange;
+	border:2px solid black;
+}
+#contactform{
+	margin:15px 200px;
+	padding:20px;
+	border:solid black;
+	background:white;
+	min-height:500px;
+}
+table{
+    width:90%;
+    border:1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+th, tr, td
+{
+    text-align: left;
+    border: 1px solid black;
+    
+}
+ol li{
+    font-family: arial
+}
+
